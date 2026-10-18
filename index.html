@@ -1,0 +1,263 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore innovative products, features, demos, and customer reviews.">
+  <title>ProductHub | Product Showcase</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="header">
+    <a href="#home" class="logo">Product<span>Hub</span></a>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#demo">Demo</a>
+      <a href="#testimonials">Reviews</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">DISCOVER WHAT'S NEXT</p>
+        <h1>Explore Products That Make Life Better</h1>
+        <p>
+          Discover innovative products, explore their features,
+          and find the right solution for your needs.
+        </p>
+        <a href="#products" class="btn">Explore Products</a>
+      </div>
+      <div class="hero-art" aria-label="Featured headphones">
+        <div class="hero-circle">🎧</div>
+        <p>Innovation meets design.</p>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div><h2>20+</h2><p>Products</p></div>
+      <div><h2>500+</h2><p>Happy Customers</p></div>
+      <div><h2>4.9/5</h2><p>Sample Rating</p></div>
+    </section>
+
+    <section class="section" id="products">
+      <p class="eyebrow">OUR COLLECTION</p>
+      <h2 class="section-title">Featured Products</h2>
+      <p class="section-intro">
+        Find your next favorite product from our collection.
+      </p>
+
+      <div class="filters">
+        <button class="filter active" data-category="all">All</button>
+        <button class="filter" data-category="electronics">Electronics</button>
+        <button class="filter" data-category="accessories">Accessories</button>
+        <button class="filter" data-category="lifestyle">Lifestyle</button>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card" data-category="electronics">
+          <div class="product-image purple">🎧</div>
+          <div class="product-info">
+            <span class="tag">Electronics</span>
+            <h3>Wireless Headphones</h3>
+            <p>Clear sound and comfortable design for everyday listening.</p>
+            <div class="product-bottom">
+              <strong>₹2,499</strong>
+              <button class="btn small details-btn"
+                data-name="Wireless Headphones"
+                data-price="₹2,499"
+                data-description="Enjoy immersive sound, comfortable ear cushions, wireless freedom, and a stylish design for everyday use.">
+                View Details
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="electronics">
+          <div class="product-image blue">⌚</div>
+          <div class="product-info">
+            <span class="tag">Electronics</span>
+            <h3>Smart Watch</h3>
+            <p>Keep track of your day with a stylish smart companion.</p>
+            <div class="product-bottom">
+              <strong>₹3,999</strong>
+              <button class="btn small details-btn"
+                data-name="Smart Watch"
+                data-price="₹3,999"
+                data-description="A modern smartwatch concept featuring activity tracking, notifications, a clear display, and a comfortable strap.">
+                View Details
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="accessories">
+          <div class="product-image orange">🎒</div>
+          <div class="product-info">
+            <span class="tag">Accessories</span>
+            <h3>Urban Backpack</h3>
+            <p>A practical backpack for college, travel, and daily use.</p>
+            <div class="product-bottom">
+              <strong>₹1,499</strong>
+              <button class="btn small details-btn"
+                data-name="Urban Backpack"
+                data-price="₹1,499"
+                data-description="A versatile backpack concept with organized storage, a modern appearance, and space for everyday essentials.">
+                View Details
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="lifestyle">
+          <div class="product-image green">☕</div>
+          <div class="product-info">
+            <span class="tag">Lifestyle</span>
+            <h3>Travel Mug</h3>
+            <p>Enjoy your favorite drink wherever the day takes you.</p>
+            <div class="product-bottom">
+              <strong>₹699</strong>
+              <button class="btn small details-btn"
+                data-name="Travel Mug"
+                data-price="₹699"
+                data-description="A reusable travel mug concept designed for everyday convenience, easy carrying, and enjoying drinks on the go.">
+                View Details
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="electronics">
+          <div class="product-image pink">🔊</div>
+          <div class="product-info">
+            <span class="tag">Electronics</span>
+            <h3>Bluetooth Speaker</h3>
+            <p>Bring music to your room, picnic, or weekend trip.</p>
+            <div class="product-bottom">
+              <strong>₹1,899</strong>
+              <button class="btn small details-btn"
+                data-name="Bluetooth Speaker"
+                data-price="₹1,899"
+                data-description="A portable speaker concept with wireless playback, a compact design, and sound for everyday entertainment.">
+                View Details
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="accessories">
+          <div class="product-image yellow">🕶️</div>
+          <div class="product-info">
+            <span class="tag">Accessories</span>
+            <h3>Classic Sunglasses</h3>
+            <p>A timeless accessory for your everyday style.</p>
+            <div class="product-bottom">
+              <strong>₹999</strong>
+              <button class="btn small details-btn"
+                data-name="Classic Sunglasses"
+                data-price="₹999"
+                data-description="A classic sunglasses concept combining a versatile frame, lightweight styling, and an everyday fashion look.">
+                View Details
+              </button>
+            </div>
+          </div>
+        </article>
+      </div>
+      <p id="noProducts" class="hidden">No products found in this category.</p>
+    </section>
+
+    <section class="demo-section" id="demo">
+      <div>
+        <p class="eyebrow">SEE IT IN ACTION</p>
+        <h2>Discover How Our Products Fit Your Life</h2>
+        <p>
+          Explore the collection, compare product details,
+          and choose the features that matter to you.
+        </p>
+        <a href="#products" class="btn">Explore the Collection</a>
+      </div>
+      <div class="demo-visual">
+        <div class="demo-icon">✨</div>
+        <h3>Designed for Everyday Living</h3>
+        <p>Thoughtful features. Simple experiences.</p>
+      </div>
+    </section>
+
+    <section class="section" id="testimonials">
+      <p class="eyebrow">CUSTOMER STORIES</p>
+      <h2 class="section-title">What People Say</h2>
+      <p class="section-intro">
+        Sample testimonials demonstrating the customer review section.
+      </p>
+
+      <div class="testimonial-grid">
+        <article class="testimonial">
+          <p class="stars">★★★★★</p>
+          <p>"The website makes it easy to explore different products and their features."</p>
+          <h3>Priya S.</h3>
+          <span>Sample customer review</span>
+        </article>
+
+        <article class="testimonial">
+          <p class="stars">★★★★★</p>
+          <p>"I love the clean layout and how simple it is to find product information."</p>
+          <h3>Rahul K.</h3>
+          <span>Sample customer review</span>
+        </article>
+
+        <article class="testimonial">
+          <p class="stars">★★★★★</p>
+          <p>"A smooth and user-friendly way to discover new products."</p>
+          <h3>Ananya R.</h3>
+          <span>Sample customer review</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <p class="eyebrow">GET IN TOUCH</p>
+      <h2>Have a Question?</h2>
+      <p>Send us a message to learn more about our products.</p>
+
+      <form id="contactForm">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" rows="4" placeholder="Write your message..." required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+        <p id="formMessage" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <div id="productModal" class="modal hidden" role="dialog"
+    aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-content">
+      <button id="closeModal" class="close-btn" aria-label="Close details">&times;</button>
+      <p class="eyebrow">PRODUCT DETAILS</p>
+      <h2 id="modalTitle"></h2>
+      <h3 id="modalPrice"></h3>
+      <p id="modalDescription"></p>
+      <button id="modalCloseButton" class="btn">Continue Exploring</button>
+    </div>
+  </div>
+
+  <footer>
+    <a href="#home" class="logo">Product<span>Hub</span></a>
+    <p>Discover products. Explore possibilities.</p>
+    <p>© 2026 ProductHub. Created as a web development project.</p>
+  </footer>
+
+</body>
+</html>
